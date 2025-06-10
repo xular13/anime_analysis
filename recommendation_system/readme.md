@@ -49,10 +49,24 @@ This folder contains experiments and final solutions for building an anime recom
 
 ---
 
+## **Model Architecture & Sample Output**
+
+### **Model Structure**
+
+<img src="../png/structure.png" alt="Final Embedding Model Architecture" width="400"/>
+
+### **Sample Recommendation Output**
+
+<img src="../png/results.png" alt="Sample Recommendations" width="400"/>
+
+---
+
 ## **How to Reproduce**
 
 1. Open `recommendation_system_final.ipynb` in Google Colab (TPU runtime).
 2. Follow instructions in the notebook to preprocess data, train the model, and evaluate results.
+
+- **Note** Full dataset is not provided due to size. You can always use [`scrapping notebook`](../data/test_scrapping.ipynb) yourself.
 
 ---
 

@@ -55,15 +55,17 @@ This folder contains the core exploratory data analysis for the anime dataset, r
 ### 7️⃣ **Dropout Rates**
 
 - **No strong correlation** between anime rating and dropout rate: highly rated anime can still have high dropouts (often due to length or pacing).
-  ![Correlation between droput rate and mean score](../png/dropout_rate.png)
+- ![Correlation between droput rate and mean score](../png/dropout_rate.png)
 - Some genres (e.g., _Gourmet_, _Strategy Game_) see higher dropouts, while others (_Avant Garde_, _Award Winning_, _Music_) retain viewers better.
 
 ---
 
 ## **How to Use This Folder**
 
-- Browse [`EDA_v1.1.ipynb`](./EDA_v1.1.ipynb) for full code, plots, and explanations.
-- Use the provided PNGs for quick insight, or copy figures for presentations.
+1. Browse [`EDA_v1.1.ipynb`](./EDA_v1.1.ipynb) for full code, plots, and explanations.
+2. Use the provided PNGs for quick insight, or copy figures for presentations.
+
+- **Note** Full dataset is not provided due to size. You can always use [`scrapping notebook`](../data/test_scrapping.ipynb) yourself.
 
 ---
 
